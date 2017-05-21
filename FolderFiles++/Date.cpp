@@ -32,7 +32,7 @@ void Date::SetDay()
 	try
 	{
 		cin >> _day;
-		if (_day <= 0 || _day > 30)
+		if (_day <= 0 || _day > 365)
 		{
 			_day= 1;
 			throw " Invalid value! Value setted by default to 1.";
