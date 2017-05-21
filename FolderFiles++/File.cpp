@@ -84,7 +84,7 @@ string File::GetAttribute()
  
 void File::ShowTime()  
 { 
-	cout << " Time created: " << GetHour() << "/" << GetMinute() << "/" << GetSecond() << endl;
+	cout << " Time created: " << GetHour() << ":" << GetMinute() << ":" << GetSecond() << endl;
 }
 
 void File::ShowDate()  
