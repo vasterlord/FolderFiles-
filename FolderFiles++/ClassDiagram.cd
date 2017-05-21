@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Date">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAAARAAAEAAQMCAAgAAAABDABgAAAAAAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQAGAAAEAAAAAQAEAAAAAAAAAAGgAEoAIQA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="File">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAIAAQACEAAAQAAAgABAAAAAAECAIAAAEAQEAABAA=</HashCode>
+      <FileName>File.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAAAAAQAEAAwAAAAUAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ctr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Folder">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAQAAAAAEAAQAAAAAAgAYABAA=</HashCode>
+      <FileName>Folder.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="files" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
